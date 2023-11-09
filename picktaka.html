@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Pick Waste
+    </title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <style>
+        .navbar {
+        padding-bottom: 10px; /* Add bottom padding to create space between the navigation bar and the container */
+    }
+    .hi-1 {
+        padding-bottom: 20px; /* Add bottom padding to create space between the hi-1 and the container */
+    }
+        /* CSS for the main container */
+        /* .container {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+      } */
+      /* CSS for the footer */
+      body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #4CAF50;
+}
+      footer {
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 10px;
+          margin-top: auto;
+      }
+      
+  </style>
+</head>
+<body> 
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> -->
+          <!-- </button> -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Call</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Track</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- NAviagtion Bara Ends -->
+      <div class="hi-1"> <h1 align="center">TRACK YOUR WASTE </h1></div>
+     <!-- Container for storing form -->
+      <div class="container" align="center">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Enter Details to track</h3>
+      <div>
+        <form method="post" action="">
+        <label for="city">Select your current city: </label> 
+    <select name="city" id="city"> 
+        <option value="Nairobi">Nairobi</option> 
+        <option value="Kisumu">Kisumu</option> 
+        <option value="Nakuru">Nakuru</option> 
+        <option value="Mombasa">Mombasa</option> 
+    </select>
+    <label for="city">Select your Estate: </label> 
+    <select name="city" id="city"> 
+        <option value="Milimani">Milimani</option> 
+        <option value="Section 58">Section 58</option> 
+        <option value="Langa Langa">Langa Langa</option>
+        <option value="White House">White House</option>
+        <option value="London">London</option>
+        <option value="Naka">Naka</option>
+        <option value="Satellite">Satellite</option>
+        <option value="Bahati">Bahati</option>
+        <option value="Lanet">Lanet</option>
+    </select>
+    </div>
+    <!--  -->
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Type of waste</span>
+        <input type="text" class="form-control"  aria-label="type_of_waste" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">Date of collection</span>
+        <input type="date" class="form-control"  aria-label="date_of_collection" aria-describedby="basic-addon1">
+      </div>
+      <img src="images (4).jpg" class="img-thumbnail" >
+    </form>
+</div>
+<div class="col-md-6" align="center">
+    <img src="pexels-photo-2382894.jpeg" class="img-thumbnail" >
+</div>
+</div>
+</div>
+    
+       <footer>
+        <div>
+            <p>Contact Us: contact@example.com</p>
+            <p>&copy; 2023 Your Company Name</p>
+        </div>
+    </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
